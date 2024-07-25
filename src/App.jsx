@@ -1,18 +1,39 @@
-import React from 'react';
-import Header from './components/Header.jsx';
+import {Outlet} from 'react-router-dom'
 import Navigation from './components/Navigation.jsx';
-import Project from './components/Project.jsx';
-import Footer from './components/Footer.jsx';
-
-const App = () => {
+function App(){
   return (
     <>
-      <Navigation/>
-      <Header/>
-      <Project/>
-      <Footer/>
+     <div className='Nav'>
+        <Navigation className='Nav'/>
+      </div>
+    <Outlet/>
+
     </>
   )
 }
+
+// const App = () => {
+//   return (
+//     <>
+//       <div className='Nav'>
+//         <Navigation className='Nav'/>
+//         </div>
+
+//       <div className='content'>
+//         <div className='Head'>
+//           <Header/>
+//         </div>
+
+//         <div className='body'>
+//           <AboutMe/>
+//           <Project/>
+//         </div>
+//         <div className='foot'>
+//           <Footer/>
+//       </div>
+//     </div>
+//     </>
+//   )
+// }
 
 export default App

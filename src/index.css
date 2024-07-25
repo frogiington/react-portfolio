@@ -10,16 +10,34 @@
   font-style: normal;
 }
 * {
-  background-color: #4C061D;
+  /*background-color: #4C061D;*/
   font-family: "Playwrite AR";
 }
-
-Navigation{
-  text-align:right;
+.content{
+  background: url('src/assets/stripes.png');
+  background-repeat: repeat;
+  background-size: contain;
+  height: max-content;
+}
+.body{
+  background-color:#4C061D;
+  margin: 1%;
+}
+.Nav{
+  background: url('src/assets/scalloping.png');
+  background-repeat: repeat-x;
+  background-size: 260px;
 }
 
-/*header{
-  color: #db504a;
-  font-size: 70px;
+.Head{
+  background-color: #4C061D;
 }
- */
+
+.PFP{
+  size: 20px 20px;
+}
+.Foot{
+  padding: 4%;
+  text-align: center;
+  background-color:#2B4570;
+}

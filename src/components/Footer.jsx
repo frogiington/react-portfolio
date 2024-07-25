@@ -1,8 +1,22 @@
 import React from 'react'
 
 function Footer() {
+  // const navigate= useNavigate();
+
+  // const navigateToGitHub = () => {
+  //   navigate('https://github.com/frogiington/react-portfolio')
+  // };
+
+  // const navigateLinkedIn = () =>{
+  //   navigate('https://www.linkedin.com/in/alyson-sanchez-8b13182b3/')
+  // }
   return (
-    <div>Footer</div>
+    <>
+      <div className='Foot'>
+        {/* <button onclick={navigateToGitHub} src='src/assets/github-logo-png-image-11659780013qtrzrutmxx.png'></button> */}
+        <p> LinkedIn</p>
+      </div>
+    </>
   )
 }
 
